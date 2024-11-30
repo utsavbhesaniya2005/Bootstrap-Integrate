@@ -1,0 +1,334 @@
+@media (min-width: 1400px) {
+    
+}
+
+@media (max-width: 1399px) {
+    
+    .main-img{
+        max-height: 320px;
+    }
+    .shape-1{
+        display: none;
+    }
+    .shape-2{
+        left: 24%;
+        top: 30%;
+    }
+    .about-student{
+        display: none;
+    }
+    .about-shape{
+        height: auto;
+        left: 50%;
+    }
+    .item-category .item-img a img{
+        height: 130px;
+        width: 130px;
+    }
+    .input-group{
+        display: none;
+    }
+    .btn-1{
+        padding: 5px 10px;
+    }
+    .search{
+        justify-content: flex-end;
+    }
+
+}
+
+@media (max-width: 1199px) {
+    
+    .instructor-card .instructor-img-1::after, .students-card .students-img::after{
+        height: 140px;
+    }
+    .main-img{
+        height: 300px;
+        margin-right: 30px;
+    }
+    .shape-2{
+        left: 24%;
+        top: 35%;
+    }
+    .shape-3{
+        display: none;
+    }
+    .newsletter-desc .newsletter-mail a{
+        padding: 18px 40px;
+    }
+    .newsletter-desc form input{
+        min-width: 400px;
+    }
+    .tab-pane .card{
+        width: 100% !important;
+        height: auto;
+    }
+    .search{
+        display: none !important;
+    }
+    .navbar-toggler{
+        margin-left: auto;
+    }
+    .logo{
+        margin-right: auto;
+    }
+    .main-navigation .row{
+        position: relative;
+    }
+    .navbar{
+        position: static;
+    }
+    .navbar-collapse{
+        position: absolute;
+        top: 150%;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        text-align: center;
+    }
+    .navbar-collapse ul li{
+        border: 1px solid var(--white);
+    }
+    .navbar-collapse ul li a{
+        background-color: var(--main-color);
+        color: var(--white);
+        font-weight: 700;
+        font-size: 16px;
+    }
+    .dropdown-item{
+        width: 100%;
+        text-align: center;
+        background-color: var(--white) !important;
+        color: var(--main-color) !important;
+    }
+    .nav-link:hover, .navbar-nav .nav-link.show {
+        color: var(--white);
+    }
+    .title h1{
+        font-size: 32px;
+    }
+    .subscription .card{
+        width: 100% !important;
+    }
+    .payment-img img{
+        width: 100%;
+    }
+    .event-info a{
+        width: 100%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media (max-width: 991px) {
+    
+    .faqs-img img, .main-img, .shape-2{
+       display: none;
+    }
+    .faqs-desc, .faqs-desc .title h2{
+        text-align: center;
+        width: 100%;
+    }
+    .counter h2, .counter span{
+        font-size: 42px;
+    }
+    .first-count::after{
+        right: -20px;
+        top: 5px;
+        height: 80px;
+    }
+    .newsletter{
+        padding: 50px 0;
+    }
+    .newsletter-desc h1{
+        width: 90%;
+        margin-bottom: 50px;
+    }
+    .newsletter-desc .newsletter-mail a {
+        padding: 15px 40px;
+    }
+    .nav::after{
+        display: none;
+    }
+    .swiper{
+        padding: 20px 25px;
+    }
+    .item-category .item-desc h4{
+        font-size: 14px;
+    }
+    .item-category .item-img a img{
+        height: 90px;
+        width: 90px;
+    }
+    .banner-text{
+        text-align: center;
+    }
+    .main-navigation{
+        padding: 25px 80px;
+    }
+    .title h1{
+        font-size: 24px;
+    }
+    .link-page{
+        padding: 0 100px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .counter h2, .counter span{
+        font-size: 28px;
+    }
+    .first-count > span{
+        font-size: 12px;
+    }
+    .first-count::after{
+        right: -10px;
+        height: 70px;
+    }   
+    .instructor-img img{
+        height: 300px;
+        width: 300px;
+    }
+    .newsletter-desc .newsletter-mail a {
+        padding: 18px 15px;
+    }
+    .newsletter-desc form input{
+        min-width: 290px;
+    }
+    .item-category .item-img{
+        height: 50px;
+        width: 50px;
+    }
+    .item-desc{
+        display: none;
+    }
+    .swiper-button-prev a, .swiper-button-next a{
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 10px;
+    }
+    .swiper-button-next{
+        right: -15px;
+    }
+    .banner-img img{
+        height: 100%;
+    }
+    .main-navigation{
+        padding: 25px 50px;
+    }
+    .title h1{
+        font-size: 20px;
+    }
+    .link-page{
+        padding: 0 50px;
+    }
+
+}
+
+@media (max-width: 575px) {
+    
+    .instructor-img-1, .students-img{
+        display: none;
+    }
+    .counter h2, .counter span{
+        font-size: 16px;
+    }
+    .first-count > span{
+        font-size: 10px;
+    }
+    .first-count::after{
+        right: -12px;
+        height: 60px;
+    }  
+    .newsletter-desc .newsletter-mail a {
+        width: 100%;
+        text-align: center;
+    }
+    .newsletter-mail form, .newsletter-mail form input{
+        min-width: fit-content;
+        width: 100%;
+    }
+    .newsletter-mail{
+        flex-direction: column;
+        column-gap: normal;
+    }
+    .enroll a{
+        padding: 10px 5px;
+    }
+    .about-shape{
+        display: none;
+    }
+    .about-image::after{
+        height: 40px;
+        width: 40px;
+        line-height: 45px;
+        font-size: 14px;
+        left: 45%;
+    } 
+    .back-btn{
+        height: 35px;
+        width: 35px;
+        line-height: 35px;
+        right: 70px;
+        font-size: 14px;
+    }
+    .swiper-button-prev a, .swiper-button-next a{
+        height: fit-content;
+        width: 100%;
+    }
+    .category-slider{
+        display: none;
+    }
+    .banner-text a{
+        padding: 10px 8px;
+    }
+    .top-header{
+        padding: 10px 0;
+    }
+    .header-right{
+        justify-content: center !important;
+    }
+    .header-right > ul, .header-left, .social{
+        flex-direction: column;
+        text-align: center;
+    }
+    .header-left a{
+        font-size: 12px;
+    }
+    .main-navigation{
+        padding: 25px 5px;
+    }
+
+    /* Event-Details Page */
+    .title h1{
+        font-size: 14px;
+    }
+    .link-page{
+        padding: 0;
+    }
+    .social-media > ul > li > a{
+        height: 25px;
+        width: 25px;
+        line-height: 25px;
+    }
+    .event-information ul{
+        flex-direction: column;
+    }
+    .event-information ul li{
+        width: 100%;
+        text-align: left;
+    } 
+    .event-information > ul > li:nth-child(2){
+        margin: 0;
+    }
+    .element-img img{
+        display: none;
+    }
+
+
+}
