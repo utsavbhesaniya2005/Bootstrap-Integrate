@@ -1,0 +1,100 @@
+.item-category .item-img a img{
+    height: 150px;
+    width: 150px;
+}
+.item-category .item-desc h4{
+    font-size: 18px;
+    font-weight: 500;
+}
+.item-category .item-desc p{
+    color: var(--normal-font);
+    font-size: 14px;
+    font-weight: 400;
+}
+.swiper-button-prev:after,
+.swiper-button-next:after{
+    display: none;
+}
+.swiper-button-prev a,
+.swiper-button-next a{
+    display: block;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: var(--btn-bg);
+    border-radius: 50%;
+    border: 1px solid var(--heading-font);
+    font-size: 18px;
+    position: absolute;
+    left: -10px;
+    top: 0px;
+    transition: all 0.2s linear;
+}
+.swiper-button-next a{
+    left: -15px;
+}
+.swiper-button-next a:hover,
+.swiper-button-prev a:hover{
+    background-color: var(--main-color);
+    border: none;
+}
+.swiper-button-prev a i,
+.swiper-button-next a i{
+    color: var(--heading-font);
+    transition: all 0.2s linear;
+}
+.swiper-button-prev a:hover i,
+.swiper-button-next a:hover i{
+    color: var(--white);
+}
+.item-category .item-img a img{
+    height: 150px;
+    width: 150px;
+}
+.item-category .item-desc h4{
+    font-size: 18px;
+    font-weight: 500;
+}
+.item-category .item-desc p{
+    color: var(--normal-font);
+    font-size: 14px;
+    font-weight: 400;
+}
+.swiper-button-prev:after,
+.swiper-button-next:after{
+    display: none;
+}
+.swiper-button-prev a,
+.swiper-button-next a{
+    display: block;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: var(--btn-bg);
+    border-radius: 50%;
+    border: 1px solid var(--heading-font);
+    font-size: 18px;
+    position: absolute;
+    left: -10px;
+    top: 0px;
+    transition: all 0.2s linear;
+}
+.swiper-button-next a{
+    left: -15px;
+}
+.swiper-button-next a:hover,
+.swiper-button-prev a:hover{
+    background-color: var(--main-color);
+    border: none;
+}
+.swiper-button-prev a i,
+.swiper-button-next a i{
+    color: var(--heading-font);
+    transition: all 0.2s linear;
+}
+.swiper-button-prev a:hover i,
+.swiper-button-next a:hover i{
+    color: var(--white);
+}
