@@ -1,0 +1,56 @@
+.banner{
+    background-image: url(../assets/images/banner/banner-bg.png);
+    height: 100%;
+    padding-top: 100px;
+    overflow: hidden;
+}
+.banner::before{
+    content: '';
+    position: absolute;
+    background-image: url(../assets/images/banner/banner_shape.png);
+    height: 230px;
+    width: 100%;
+    background-repeat: no-repeat;
+    left: 0;
+    top: 0;
+}
+.banner-text h2{
+    font-size: 42px;
+    line-height: 60px;
+}
+.learning{
+    background-image: url(../assets/images/banner/banner-text-shape.png);
+    color: var(--white);
+    padding: 8px;
+    font-weight: bold;
+}
+.banner-text p{
+    width: 90%;
+    font-size: 18px;
+    padding-bottom: 25px;
+}
+.banner-text a,
+.about-desc>a,
+.instructor-text-1 a,
+.students-card a,
+.event-info>a{
+    background-color: var(--main-color);
+    box-shadow: 5px 5px 1px #050071;
+}
+.banner-text a:hover,
+.about-desc>a:hover,
+.instructor-text-1 a,
+.students-card a{
+    background-color: var(--heading-font);
+    box-shadow: 5px 5px 1px var(--white);
+}
+.banner-text a span{
+    margin-right: 5px;
+}
+.banner-img{
+    height: 100%;
+}
+.banner-img img{
+    height: 420px;
+    width: 100%;
+}

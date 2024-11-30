@@ -88,68 +88,72 @@ const Header = () => {
                                             </Nav.Link>
                                         </li>
 
-                                        <li className="nav-item dropdown">
-                                            <Dropdown>
-                                                <Dropdown.Toggle className='nav-link'>
-                                                    <span className='me-2'>Courses</span>
-                                                    <i className="fa-solid fa-angle-down align-middle"></i>
-                                                </Dropdown.Toggle>
-
-                                                <Dropdown.Menu>
-                                                    <Dropdown.Item href="#/action-1">All Courses</Dropdown.Item>
-                                                    <hr />
-                                                    <Dropdown.Item href="#/action-2">Course Details</Dropdown.Item>
-                                                </Dropdown.Menu>
-                                            </Dropdown>
-                                        </li>
-
-                                        <li className="nav-item dropdown">
-                                            <Nav.Link className="nav-link dropdown-toggle px-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                <span>Pages</span>
+                                        <Dropdown>
+                                            <Dropdown.Toggle className='nav-link'>
+                                                <span className='me-2'>Courses</span>
                                                 <i className="fa-solid fa-angle-down align-middle"></i>
-                                            </Nav.Link>
-                                            <ul className="dropdown-menu">
-                                                <li><a className="dropdown-item" href="#">About Page</a></li>
-                                                <hr />
-                                                <li><a className="dropdown-item" href="#">All Instructors</a></li>
-                                                <hr />
-                                                <li><a className="dropdown-item" href="#">Instructor Details</a></li>
-                                                <hr />
-                                                <li><a className="dropdown-item" href="#">All Events</a></li>
-                                                <hr />
-                                                <li><a className="dropdown-item" href="#">Event Details</a></li>
-                                                <hr />
-                                                <li><a className="dropdown-item" href="#">Student Login</a></li>
-                                                <hr />
-                                                <li><a className="dropdown-item" href="#">Student Reg</a></li>
-                                                <hr />
-                                                <li><a className="dropdown-item" href="#">404 Page</a></li>
-                                                <hr />
-                                                <li><a className="dropdown-item" href="#">Contact</a></li>
-                                            </ul>
-                                        </li>
+                                            </Dropdown.Toggle>
 
-                                        <li className="nav-item dropdown">
-                                            <Nav.Link className="nav-link dropdown-toggle px-3" href="#shop">
-                                                <span>Shop</span>
-                                                <i className="fa-solid fa-angle-down align-middle"></i>
-                                            </Nav.Link>
-                                            <ul className="dropdown-menu">
-                                                <li><a className="dropdown-item" href="#">Shop Page</a></li>
-                                            </ul>
-                                        </li>
-
-                                        <li className="nav-item dropdown">
-                                            <Nav.Link className="nav-link dropdown-toggle px-3" href="#">
-                                                <span>Blog</span>
-                                                <i className="fa-solid fa-angle-down align-middle"></i>
-                                            </Nav.Link>
-                                            <ul className="dropdown-menu">
-                                                <li><a className="dropdown-item" href="#">Latest Blog Grid</a></li>
+                                            <Dropdown.Menu>
+                                                <Dropdown.Item href="#/action-1">All Courses</Dropdown.Item>
                                                 <hr />
-                                                <li><a className="dropdown-item" href="#">Blog Details</a></li>
-                                            </ul>
-                                        </li>
+                                                <Dropdown.Item href="#/action-2">Course Details</Dropdown.Item>
+                                            </Dropdown.Menu>
+                                        </Dropdown>
+
+                                    
+                                        <Dropdown>
+                                            <Dropdown.Toggle className='nav-link'>
+                                                <span className='me-2'>Pages</span>
+                                                <i className="fa-solid fa-angle-down align-middle"></i>
+                                            </Dropdown.Toggle>
+                                            
+                                            <Dropdown.Menu>
+                                                <Dropdown.Item href="#/action-1">About Page</Dropdown.Item>
+                                                <hr />
+                                                <Dropdown.Item href="#/action-2">All Instructor</Dropdown.Item>
+                                                <hr />
+                                                <Dropdown.Item href="#/action-3">Instructor Details</Dropdown.Item>
+                                                <hr />
+                                                <Dropdown.Item href="#/action-4">All Events</Dropdown.Item>
+                                                <hr />
+                                                <Dropdown.Item href="#/action-5">Event Details</Dropdown.Item>
+                                                <hr />
+                                                <Dropdown.Item href="#/action-6">Student Login</Dropdown.Item>
+                                                <hr />
+                                                <Dropdown.Item href="#/action-7">Student Reg</Dropdown.Item>
+                                                <hr />
+                                                <Dropdown.Item href="#/action-8">404 Page</Dropdown.Item>
+                                                <hr />
+                                                <Dropdown.Item href="#/action-9">Contact</Dropdown.Item>
+                                                <hr />
+                                            </Dropdown.Menu>
+                                        </Dropdown>
+
+                                        <Dropdown>
+                                            <Dropdown.Toggle className='nav-link'>
+                                                <span className='me-2'>Shop</span>
+                                                <i className="fa-solid fa-angle-down align-middle"></i>
+                                            </Dropdown.Toggle>
+
+                                            <Dropdown.Menu>
+                                                <Dropdown.Item href="#/action-1">Shop Page</Dropdown.Item>
+                                            </Dropdown.Menu>
+                                        </Dropdown>
+
+                                        <Dropdown>
+                                            <Dropdown.Toggle className='nav-link'>
+                                                <span className='me-2'>Blog</span>
+                                                <i className="fa-solid fa-angle-down align-middle"></i>
+                                            </Dropdown.Toggle>
+
+                                            <Dropdown.Menu>
+                                                <Dropdown.Item href="#/action-1">Latest Blog Grid</Dropdown.Item>
+                                                <hr />
+                                                <Dropdown.Item href="#/action-2">Blog Details</Dropdown.Item>
+                                            </Dropdown.Menu>
+                                        </Dropdown>
+
                                     </Nav>
                                 </Navbar.Collapse>
                             </Container>
