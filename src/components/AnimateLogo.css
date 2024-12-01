@@ -1,0 +1,7 @@
+.animate-logo{
+    padding: 40px 0;
+    background-color: #06042E;
+}
+.animate-logo .container{
+    max-width: 1920px !important; 
+}

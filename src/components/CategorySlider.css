@@ -98,3 +98,6 @@
 .swiper-button-next a:hover i{
     color: var(--white);
 }
+.swiper-button-lock{
+    display: block !important;
+}

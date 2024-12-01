@@ -10,6 +10,12 @@ const categories = [
     { name: "Development", count: 29, icon: "../src/assets/images/category/development-icon.svg" },
     { name: "Marketing", count: 31, icon: "../src/assets/images/category/marketing-icon.svg" },
     { name: "Life Style", count: 23, icon: "../src/assets/images/category/life-style-icon.svg" },
+    { name: "Management", count: 19, icon: "../src/assets/images/category/management-icon.svg" },
+    { name: "Graphic Design", count: 22, icon: "../src/assets/images/category/graphic-icon.svg" },
+    { name: "Finance", count: 41, icon: "../src/assets/images/category/finance-icon.svg" },
+    { name: "Development", count: 29, icon: "../src/assets/images/category/development-icon.svg" },
+    { name: "Marketing", count: 31, icon: "../src/assets/images/category/marketing-icon.svg" },
+    { name: "Life Style", count: 23, icon: "../src/assets/images/category/life-style-icon.svg" },
     { name: "Management", count: 19, icon: "../src/assets/images/category/management-icon.svg" }
 ];
 
@@ -20,13 +26,12 @@ const CategorySlider = () => {
                 <div className="row">
                     <div className="col-12">
                         <Swiper
+                            slidesPerView={6} spaceBetween={-45} loop={true}
                             navigation={{
                                 prevEl: '.swiper-button-prev',
                                 nextEl: '.swiper-button-next',
                             }}
-                            modules={[Navigation]}
-                            className="mySwiper"
-                        >
+                            modules={[Navigation]} className="mySwiper">
                             {categories.map((category, index) => (
                                 <SwiperSlide key={index}>
                                     <div className="item-category">
@@ -42,17 +47,17 @@ const CategorySlider = () => {
                                     </div>
                                 </SwiperSlide>
                             ))}
+                            <div className="angle-left swiper-button-prev">
+                                <a href="#">
+                                    <i className="fa-solid fa-arrow-left"></i>
+                                </a>
+                            </div>
+                            <div className="angle-right swiper-button-next">
+                                <a href="#">
+                                    <i className="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
                         </Swiper>
-                        <div className="angle-left swiper-button-prev">
-                            <a href="#">
-                                <i className="fa-solid fa-arrow-left"></i>
-                            </a>
-                        </div>
-                        <div className="angle-right swiper-button-next">
-                            <a href="#">
-                                <i className="fa-solid fa-arrow-right"></i>
-                            </a>
-                        </div>
                     </div>
                 </div>
             </div>

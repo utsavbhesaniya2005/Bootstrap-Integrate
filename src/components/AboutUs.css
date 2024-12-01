@@ -1,0 +1,58 @@
+.about-image{
+    position: relative;
+}
+.about-image::after{
+    position: absolute;
+    left: 45%;
+    top: 40%;
+    content: '\f04b';
+    font-family: 'font awesome 6 free';
+    height: 76px;
+    width: 76px;
+    color: #e11b24;
+    background-color: var(--white);
+    line-height: 76px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 28px;
+}
+.about-student{
+    position: absolute;
+    left: -80px;
+    bottom: 0;
+    height: 100px;  
+}
+.about-shape{
+    position: absolute;
+    right: 140px;
+    top: 25px;
+    background-position: right;
+    height: 100px;
+}
+.about-desc h2{
+    font-size: 38px;
+    line-height: 50px;
+}
+.about-desc h2 .learning{
+    padding: 0 10px;
+}
+.about-desc p{
+    font-size: 16px;
+}
+.about-desc ul li a .left-icon{
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    background-color: var(--btn-bg);
+    text-align: center;
+    border-radius: 50%;
+    color: var(--heading-font);
+    border: 1px solid var(--heading-font);
+    box-shadow: 3px 3px 5px 1px #625e5e;
+}
+.about-desc ul li a span{
+    color: var(--heading-font);
+    font-family: var(--heading-ff);
+    font-size: 18px;
+    line-height: 30px;
+}

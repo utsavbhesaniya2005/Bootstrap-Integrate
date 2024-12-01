@@ -1,0 +1,95 @@
+.t-courses{
+    background-image: url(../assets/images/top-courses/top-courses-bg.png);
+    height: 100%;
+    padding: 100px 0;
+}
+.nav{
+    position: relative;
+    border: none;
+}
+.nav::after{
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 800px;
+    background-color: #D9D9F3;
+    border-radius: 25px;
+    bottom: 0;
+    z-index: 0;
+}
+.nav-tabs .nav-link{
+    color: #7F7E97;
+    font-size: 16px;
+    font-family: var(--normal-ff);
+    position: relative;
+    z-index: 1;
+}
+.nav-link::after{
+    content: '';
+    position: absolute;
+    left: 22%;
+    bottom: 0;
+    height: 6px;
+    width: 50px;
+    border-radius: 24px;
+    background-color: var(--main-color);
+    display: none;
+}
+.nav-tabs .nav-link.active{
+    color: var(--heading-font);
+    background-color: transparent;
+    border: none;
+}
+.nav-tabs .nav-link.active::after{
+    display: block;
+}
+.card > img{
+    transition: all 0.2s linear;
+}
+.card:hover > img{
+    transform: scale(1.05);
+}
+.card-body{
+    padding: 15px 5px;
+}
+.card-body .rating{
+    font-size: 13px;
+    font-family: var(--normal-ff);
+    color: var(--heading-font);
+}
+.card-body .rating > span{
+    background-color: #efeff2;
+    padding: 5px 10px;
+}
+.reviews i{
+    color: var(--btn-bg);
+    font-size: 13px;
+}
+.reviews span{
+    color: #7F7E97;
+    font-size: 14px;
+    font-weight: 400;
+}
+.card-body .heading{
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0;
+}
+.card-body p{
+    color: var(--heading-font);
+    font-size: 15px;
+}
+.card-body p span{
+    color: #6D6C80;
+}
+.enroll a{
+    padding: 10px 25px;
+    box-shadow: 5px 5px 1px #3d3d3d;
+    border: 1px solid var(--heading-font);
+}
+.enroll > span{
+    color: var(--main-color);
+    font-weight: 700;
+    font-family: var(--heading-ff);
+    font-size: 20px;
+}
