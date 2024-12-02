@@ -1,0 +1,20 @@
+.first-count h2, .first-count span{
+    color: var(--white);
+}
+.counter h2, .counter span{
+    font-size: 52px;
+    font-weight: 600;
+    margin: 0;
+}
+.first-count span{
+    font-weight: 400;
+}
+.first-count::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100px;
+    width: 0.5px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 100%, rgba(255, 255, 255, 0) 0%);
+}

@@ -1,0 +1,67 @@
+.journey{
+    height: 100%;
+    background-color: rgba(40, 37, 104, 1);
+    padding: 100px 0 20px 0;
+}
+.journey .title h4{
+    background-color: rgba(87, 81, 225, 1);
+    font-weight: 500;
+    font-family: var(--normal-ff);
+}
+.journey .title p{
+    color: rgba(172, 170, 204, 1);
+}
+.journey-desc img{
+    margin-bottom: 20px;
+}
+.journey-desc h4{
+    font-size: 20px;
+}
+.journey-desc p{
+    font-size: 16px;
+}
+.instructor-card, .students-card{
+    background-color: var(--white);
+    padding: 20px 20px 0 20px;
+    overflow: hidden;
+}
+.instructor-card .instructor-img-1{
+    position: relative;
+    z-index: 1;
+}
+.instructor-card .instructor-img-1::after{
+    content: '';
+    background-image: url(../../assets/images/journey/instructor-shape.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -30px;
+    bottom: 0;
+    height: 150px;
+    width: 225px;
+    z-index: -1;
+}
+.instructor-card .instructor-img-1 img{
+    height: 240px;
+    width: 190px;
+}
+.students-card{
+    position: relative;
+    z-index: 1;
+}
+.students-card .students-img::after{
+    content: '';
+    background-image: url(../images/journey/students-shape.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    height: 160px;
+    width: 225px;
+    z-index: -1;
+}
+.instructor-text-1 h2{
+    font-size: 28px;
+}
+.instructor-text-1 p{
+    line-height: 28px;
+}

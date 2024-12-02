@@ -1,0 +1,54 @@
+.newsletter{
+    height: 80%;
+    background-color: var(--main-color);
+    padding-top: 50px;
+    overflow: hidden;
+    position: relative;
+}
+.main-img{
+    height: 300px;
+    bottom: 0;
+}
+.shape-1{
+    height: 180px;
+    top: 55%;
+}
+.shape-2{
+    left: 27%;
+    top: 30%;
+}
+.shape-3{
+    height: 400px;
+    left: 65%;
+    top: 0;
+}
+.newsletter-desc h1{
+    font-size: 36px;
+    width: 70%;
+    text-transform: capitalize;
+    color: var(--white);
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+.newsletter-desc form input{
+    border: 1px solid #433EC2;
+    outline: none;
+    min-width: 450px;
+    height: 60px;
+    background-color: #4A44D1;
+    padding: 20px;
+}
+.newsletter-desc .newsletter-mail form input::placeholder{
+    font-size: 16px;
+    line-height: 20px;
+}
+.newsletter-desc .newsletter-mail a{
+    padding: 18px 45px;
+    box-shadow: 5px 5px 1px #3d3d3d;
+    border: 1px solid var(--heading-font);
+    transition: all 0.2s linear;
+}
+.newsletter-mail a:hover{
+    background-color: var(--heading-font);
+    box-shadow: 5px 5px 1px var(--main-color);
+}

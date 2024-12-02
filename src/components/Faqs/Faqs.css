@@ -1,0 +1,35 @@
+.faqs-desc .title h4{
+    font-weight: 500;
+    font-family: var(--normal-ff);
+}
+.faqs-desc .title h2{
+    width: 80%;
+}
+.accordion{
+    --bs-accordion-border-width: 0;
+}
+.accordion-button:not(.collapsed){
+    color: rgba(87, 81, 225, 1);
+    background-color: var(--white);
+}
+.accordion-button:focus{
+    box-shadow: none;
+}
+.accordion-button{
+    color: rgba(109, 108, 128, 1);
+    font-weight: 500;
+    font-family: var(--heading-ff);
+    font-size: 20px;
+    padding: 16px 20px;
+    font-weight: 600;
+}
+.accordion-button:first-child{
+    border-bottom: 1px solid rgba(178, 187, 204, 1);
+}
+.accordion-body{
+    font-family: var(--normal-ff);
+    color: rgba(28, 26, 74, 1);
+    font-size: 16px;
+    font-weight: 400;
+    width: 94%;
+}
